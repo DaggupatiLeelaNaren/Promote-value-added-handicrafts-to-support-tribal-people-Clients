@@ -1,0 +1,55 @@
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+    height: 250px; /* Adjusted overall carousel height */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 200px; /* Further reduced height of images */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 20px; /* Slightly reduced font size for the slide label */
+    font-weight: bold;
+    color: #fff; /* Color for the caption title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: Add shadow for better readability */
+  }
+  
+  .carousel-caption p {
+    font-size: 14px; /* Slightly reduced font size for the slide description */
+    color: #ddd; /* Color for the caption description */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Optional: Add shadow for better readability */
+  }
+  
+  .carousel-indicators button {
+    width: 10px; /* Reduced size of indicator dots */
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for the control icons */
+    border-radius: 50%;
+    width: 30px; /* Reduced size of control icons */
+    height: 30px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.8;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1;
+  }
+  

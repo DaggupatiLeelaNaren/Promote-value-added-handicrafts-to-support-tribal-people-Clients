@@ -1,0 +1,84 @@
+.home-container {
+   background-image: url('https://img.freepik.com/free-photo/talented-child-doing-pottery_23-2151693881.jpg?semt=ais_hybrid');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-card img {
+    height: 500px;
+    width: auto; /* Maintain aspect ratio */
+}
+
+.home-card-content {
+    margin-left: 40px; /* Adjusted for better spacing */
+    color: #E2F4C5; /* Light color for text */
+}
+
+.home-card-hea1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.home-card-hea2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #E2F4C5;
+}
+
+.home-card-dis {
+    font-size: 14px;
+    font-weight: bold;
+    color: #E2F4C5;
+}
+
+.home-card-buttons {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+}
+
+.home-card-btn1,
+.home-card-btn2 {
+    border-style: none;
+    border-radius: 5px;
+    color: green;
+    width: 130px;
+    height: 50px;
+}
+
+.home-card-btn1 {
+    background-color: greenyellow;
+}
+
+.home-card-btn2 {
+    background-color: transparent; /* Make it transparent or add a background */
+    border: 2px solid green; /* Optional: add border for visual appeal */
+}
+
+@media (max-width: 768px) {
+    .home-card {
+        flex-direction: column; /* Stack elements on smaller screens */
+        align-items: center;
+    }
+
+    .home-card img {
+        height: 300px; /* Smaller image on mobile */
+    }
+
+    .home-card-content {
+        margin-left: 0; /* Remove left margin on mobile */
+        text-align: center; /* Center text on mobile */
+    }
+}

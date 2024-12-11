@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@500&family=Poppins:wght@200;300;500;600&family=Rubik:wght@500&family=Work+Sans&display=swap');
+
+body {
+  overflow-x: visible !important;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tribal-navbar {
+  background-color: transparent !important;
+  display: flex;
+ color: white;
+  align-items: center;
+}
+
+.tribal-navbar-active {
+  background-color: #f8f4ec; /* Earthy background for scrolled navbar */
+}
+
+.tribal-nav-link-scroll {
+  color: #8B4513; /* Earthy brown */
+  margin: 0px 15px !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.tribal-nav-link-scroll:hover {
+  color: #C19A6B; /* Lighter shade on hover */
+  border-bottom: 3px solid #C19A6B; /* Underline on hover */
+}
+
+.tribal-nav-logo {
+  height: 55px;
+  width: 180px;
+}
+
+.tribal-navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   /* Adjust space between nav links */
+}
+
+.tribal-nav-link {
+  margin: 0px 15px !important;
+  color: white !important; /* Brown */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.tribal-nav-link:hover {
+  color: #C19A6B; /* Lighter brown on hover */
+  border-bottom: 3px solid #C19A6B;
+}
+
+.tribal-fade-in {
+  -webkit-animation: tribal-fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: tribal-fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.tribal-slide-in-blurred-top {
+  -webkit-animation: tribal-slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  animation: tribal-slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+/* Animations */
+@-webkit-keyframes tribal-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tribal-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes tribal-slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes tribal-slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}

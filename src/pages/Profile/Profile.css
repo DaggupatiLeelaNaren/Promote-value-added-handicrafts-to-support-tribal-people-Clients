@@ -1,0 +1,41 @@
+/* Profile Page Styles */
+.user-profile {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .profile-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-details h2 {
+    font-size: 2em;
+  }
+  
+  .profile-details p {
+    font-size: 1.2em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 1.2em;
+  }
+  

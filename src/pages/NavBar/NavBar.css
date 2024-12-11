@@ -1,0 +1,115 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@500&family=Poppins:wght@200;300;500;600&family=Rubik:wght@500&family=Work+Sans&display=swap');
+
+.navbar-logo {
+    height: 50px;
+}
+
+body {
+  overflow-x: visible !important;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Default Navbar */
+.navbar-default {
+  background-color: transparent !important;
+}
+
+/* Navbar when scrolled */
+.navbar-active {
+  background-color: #ffffff;
+}
+
+.nav-link-scroll {
+  color: orange !important;
+  margin: 0px 15px;
+}
+
+.nav-link-scroll:hover {
+  color: rgb(247, 194, 5);
+  border-bottom: 3px solid rgb(247, 194, 5);
+}
+
+.navbar-logo {
+  height: 55px;
+  width: 180px;
+}
+
+.navbar-links {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-link-default {
+  margin: 0px 15px !important;
+  color: white !important;
+}
+
+.nav-link-default:hover {
+  color: rgb(247, 194, 5);
+  border-bottom: 3px solid rgb(247, 194, 5);
+}
+
+/* Animations */
+.fade-in {
+  -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  animation: slide-in-blurred-top 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+/* Animation Keyframes */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 
+  }
+}

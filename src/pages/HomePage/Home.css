@@ -1,0 +1,372 @@
+
+  
+  .carousel-section {
+    width: 100%;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .caro-img {
+    width: 100%;
+    height: 500px; /* Adjust the height as per your design */
+    object-fit: cover;
+  }
+  
+  .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.8;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+
+  
+
+  .bs-img{
+    height: 300px;
+  }
+  .bs-2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light background to make the banner stand out */
+}
+
+.banner-section {
+    /* Background image reflecting tribal culture */
+    background-image: url('https://taajoo.com/wp-content/uploads/2022/01/Why-Indian-Handicraft-is-so-popular.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.banner-card {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-in-out;
+}
+
+.banner-icon {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.banner-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f7c35e; /* Warm orange color to represent earth and culture */
+    animation: tracking-in-expand 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.banner-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #f1f1f1;
+}
+
+.banner-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f7c35e;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Keyframe animations */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+
+
+.Home-Explore-Section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, rgba(232, 187, 129, 1), rgba(224, 165, 90, 1) 38%, rgba(192, 140, 68, 1), rgba(182, 122, 56, 1), rgba(182, 122, 56, 1));
+}
+
+.Home-Explore-Section-img {
+  height: 350px;
+  margin-top: 22px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+.Home-Explore-Section-Card1 {
+  background-color: #fff; /* White background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for elegance */
+}
+
+.Home-Explore-Section-Card1-heading1 {
+  color: #8B4513; /* Earthy brown to represent tradition */
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Home-Explore-Section-Card1-heading2 {
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+}
+
+.Home-Explore-Section-Card1-paragraph {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #5a7184;
+}
+
+.Home-Explore-Section-Card1-btn1 {
+  height: 50px;
+  width: 140px;
+  border-style: none;
+  background-color: #8B4513; /* Brown for a natural feel */
+  margin: 10px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Home-Explore-Section-Card1-btn2 {
+  height: 50px;
+  width: 140px;
+  border-style: none;
+  background-color: #333;
+  color: white;
+  margin: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Home-Explore-Section-Card1-btn1:hover {
+  background-color: #333;
+  color: white;
+}
+
+.Home-Explore-Section-Card1-btn2:hover {
+  background-color: #8B4513;
+  color: white;
+}
+
+
+
+.blog-section {
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blog-section-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: orange;
+}
+
+.blog-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  height: 470px;
+}
+
+.blog-card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.blog-card-body {
+  padding: 20px;
+}
+
+.blog-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-card-description {
+  font-size: 14px;
+  color: #777;
+}
+
+.blog-card-btn {
+  background-color:orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.blog-card-btn:hover {
+  background-color: orangered;
+}
+
+
+
+.about-us-section {
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-us-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: orange;
+}
+
+.about-us-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-us-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-us-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.about-us-btn:hover {
+  background-color: orangered;
+}
+
+
+
+
+
+
+.tribal-handicrafts-section {
+  background-color: #faf5f0; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tribal-handicrafts-section-img {
+  width: 100%;
+  border-radius: 20px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tribal-handicrafts-section-heading {
+  color: #8B4513; /* Warm brown to symbolize earth and tradition */
+  font-size: 32px; /* Slightly larger font for prominence */
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tribal-handicrafts-section-description {
+  color: #5a7184;
+  font-size: 18px; /* A bit larger for better readability */
+  line-height: 1.6;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+

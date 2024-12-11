@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Navbar {
+    background-color: transparent;
+  }
+  
+  .active {
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    height: 55px;
+  }
+  
+  .logo-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: #008dda;
+  }
+  
+  .nav-btn {
+    width: 120px;
+    border-style: none;
+    color: white;
+    background-color:orange;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navLinkScroll {
+    color: #008dda !important;
+    margin: 0px 15px;
+    text-decoration: none !important;
+  }
+  
+  .navLinkScroll:hover {
+    color: #e2f4c5;
+    border-bottom: 3px solid #e2f4c5;
+  }
+  
+  .NavBarLinks {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .navLink {
+    margin: 0px 15px !important;
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    color: #e2f4c5;
+    border-bottom: 3px solid #e2f4c5;
+  }
+  
+  .fade-in {
+    -webkit-animation: fade-in 1s ease-in-out;
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  .slide-in-blurred-top {
+    -webkit-animation: slide-in-blurred-top 1s ease-in-out;
+    animation: slide-in-blurred-top 1s ease-in-out;
+  }
+  
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-filter: blur(40px);
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+      transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-filter: blur(40px);
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+      transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .NavBarLinks {
+      font-size: 12px;
+    }
+  }
+  

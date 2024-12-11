@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    background-color: transparent;
+    padding: 30px 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-photo/talented-child-doing-pottery_23-2151693881.jpg?semt=ais_hybrid');
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.login-heading {
+    font-size: 32px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-description {
+    font-size: 14px;
+    color: rgb(228, 113, 35);
+    text-align: center;
+}
+
+.login-label {
+    color:rgb(228, 113, 35);
+    font-size: 14px;
+}
+
+.login-input {
+    padding: 10px;
+    border: solid 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    border-color: rgb(228, 113, 35);
+    width: 100%;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    border-style: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(228, 113, 35);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: orange;
+    color: black;
+}
+
+.fade-in {
+    -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* Fade-in animation */
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 768px) {
+    .login-container {
+        padding: 20px 30px;
+        max-width: 100%;
+    }
+}

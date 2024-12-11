@@ -1,0 +1,115 @@
+/* Main container styling */
+.payment-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.payment-heading {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Payment Method Selection */
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.payment-method-label {
+  font-size: 1.1em;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.payment-method-radio {
+  margin-right: 10px;
+  accent-color: #1e3a8a; /* Blue accent for radio buttons */
+}
+
+/* Payment Form Styles */
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-card-form,
+.paypal-form,
+.stripe-form,
+.apple-pay-form,
+.google-pay-form,
+.cash-on-delivery-form {
+  margin-bottom: 30px;
+}
+
+.form-heading {
+  font-size: 1.6em;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 1.1em;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #1e3a8a; /* Deep blue */
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #ff6347; /* Tomato red on hover */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .payment-container {
+    padding: 20px;
+  }
+
+  .payment-heading {
+    font-size: 1.6em;
+  }
+
+  .payment-methods {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .payment-form {
+    margin-top: 20px;
+  }
+}

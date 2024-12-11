@@ -1,0 +1,91 @@
+/* Confirmation Page */
+.confirmation-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .confirmation-message {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .confirmation-message h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .confirmation-message p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .order-summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+  }
+  
+  .order-summary h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1em;
+  }
+  
+  .summary-row:last-child {
+    border-bottom: none;
+  }
+  
+  .summary-row span {
+    font-weight: 500;
+  }
+  
+  .summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #ddd;
+  }
+  
+  .go-home-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .go-home-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .go-home-btn:active {
+    background-color: #1c5d7e;
+  }
+  
